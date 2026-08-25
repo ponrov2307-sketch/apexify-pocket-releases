@@ -1,0 +1,2 @@
+7e40409d9d9f2c7fe00c8701327c6e87  FW-SmartPulse-Lite-v1.0.15.bin
+b91bb6c8a4fd82ee05eaf5bbd1c6ec54  FW-SmartPulse-Pro-v1.0.15.bin

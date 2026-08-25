@@ -1,0 +1,34 @@
+READ THIS BEFORE UPDATING
+=========================
+
+1. CHECK YOUR MODEL FIRST.
+
+   SmartPulse Lite  ->  FW-SmartPulse-Lite-*.bin    (ESP8266, 1.54" screen, no touch)
+   SmartPulse Pro   ->  FW-SmartPulse-Pro-*.bin     (ESP32,   2.8"  screen, touch)
+
+   The model name is at the top of the device's own web page.
+
+   Flashing the other model's file leaves the screen blank. That is not
+   fixable over WiFi - it needs a USB-serial cable and the case opened.
+
+
+2. DO NOT UNPLUG THE DEVICE WHILE IT IS UPDATING.
+
+   It takes about a minute and reboots itself when finished.
+
+
+3. YOUR SETTINGS ARE KEPT.
+
+   WiFi, watchlist, theme and brightness all survive an update. There is a
+   backup button under the Update tab if you want a copy first - note the
+   exported file contains your WiFi password, so keep it private.
+
+
+4. LITE UNITS ON v1.0.14 OR OLDER CANNOT UPDATE OVER WIFI.
+
+   Those builds carry a bug that corrupts the bootloader's instructions, so
+   the upload reports success and then boots the old firmware anyway. It is
+   not your network and not a bad download.
+
+   Such a device needs one recovery flash over a USB-serial cable. After
+   that, WiFi updates work normally and the case never has to come off again.

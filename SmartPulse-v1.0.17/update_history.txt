@@ -1,0 +1,4 @@
+v1.0.17
+Lite watchlist capped at 10 symbols (was 12). Ten is the measured
+ceiling: ten ran an hour with no cache failure, eleven produced ten.
+The Add button now stops there instead of warning past it.

@@ -1,0 +1,10 @@
+v1.0.15
+Fixes the bug that made WiFi updates silently do nothing on the Lite.
+The crash recorder wrote to RTC word 0 - the same word the bootloader
+reads its "install the staged image" order from - so eboot failed its
+CRC check and booted the old firmware. Upload said 200 OK and installed
+nothing, seven times running. Moved to word 32.
+
+Product renamed to SmartPulse Lite / SmartPulse Pro.
+Pro: per-screen selection for AUTO rotation, and the Claude usage,
+Codex and PC Monitor screens no longer render at the wrong scale.
