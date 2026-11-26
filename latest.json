@@ -1,6 +1,14 @@
 {
-  "tag": "v1.0.18",
+  "tag": "v1.0.19",
+  "version": "AX-1.0.19",
   "assets": {
-    "apexify-firmware-promax.bin": "https://github.com/ponrov2307-sketch/apexify-pocket-releases/releases/download/v1.0.18/apexify-firmware-promax.bin"
+    "apexify-firmware-cyd.bin": "https://github.com/ponrov2307-sketch/apexify-pocket-releases/releases/download/v1.0.19/apexify-firmware-cyd.bin",
+    "apexify-firmware-promax.bin": "https://github.com/ponrov2307-sketch/apexify-pocket-releases/releases/download/v1.0.19/apexify-firmware-promax.bin",
+    "apexify-firmware.bin": "https://github.com/ponrov2307-sketch/apexify-pocket-releases/releases/download/v1.0.19/apexify-firmware.bin"
+  },
+  "sha256": {
+    "apexify-firmware-cyd.bin": "0271430443745e248d9a239d858beaa76e245167e2da3fe1b17e989c1e8fb949",
+    "apexify-firmware-promax.bin": "687d8c923f0c5989c27e366182d419106012631d2bc268a68be78bd945b96917",
+    "apexify-firmware.bin": "0dd70edd8617b3040ead4aed85d3a0071351d6c05b2f42f02d0894bb64ffceba"
   }
 }
